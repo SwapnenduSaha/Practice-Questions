@@ -47,3 +47,16 @@ show();*/
   console.log(x, y);
 }
 show();*/
+
+/* 4.How object literals and arrays behave with toString() method*/
+
+/*const arr1 = [1, 2, 3];
+const arr2 = [1, [2, 3], [4, 5, 6]];
+const obj = {
+  one: 1,
+  two: 2,
+};
+console.log(arr1.toString());//1,2,3
+console.log(arr2.toString());//1,2,3,4,5,6
+console.log(obj.toString());//[object object]
+*/
