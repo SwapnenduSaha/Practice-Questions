@@ -60,3 +60,16 @@ console.log(arr1.toString());//1,2,3
 console.log(arr2.toString());//1,2,3,4,5,6
 console.log(obj.toString());//[object object]
 */
+
+/*5.array is mutable but string is immutable*/
+/*let arr = [0,1,2];
+arr[0] = 5;
+console.log(arr[0]);//5
+let str = "abcd";
+str[0] = "b";
+console.log(str[0]);//a
+str = "b" + str.slice(1,4);
+console.log(str);//bbcd
+*/
+
+
