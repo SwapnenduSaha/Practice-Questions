@@ -72,4 +72,19 @@ str = "b" + str.slice(1,4);
 console.log(str);//bbcd
 */
 
+/*delete oprator in JS used to remove properties from an object
+It returns true after successful deletion and returns true even if property doesn't exist
+It does not work on variables and returns false on attempt of deletion
+In case of array it creates an empty slot after deletion from specified index
+*/
+const obj = {
+  a: "hello",
+  b: "world",
+};
+const arr = [1, 2, 3, 4, 5];
+console.log(delete obj.a);
+console.log(obj);
+console.log(delete obj.c);
+console.log(delete arr[2]);//true
+console.log(arr);//[ 1, 2, <1 empty item>, 4, 5 ]
 
