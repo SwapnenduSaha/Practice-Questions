@@ -119,3 +119,12 @@ console.log(sum());
 console.log(sum(5, null));//While addition between two different data types JS prefer number conversion
 console.log(sum(5, undefined));//Default value of b is used
 */
+
+/*11. Returns true if every person is male */
+let objArr = [
+  { name: "Ayush", gender: "Male" },
+  { name: "Priya", gender: "Female" },
+  { name: "Raj", gender: "Male" },
+];
+let ans = objArr.every((person) => person.gender === "Male");
+console.log(ans);
