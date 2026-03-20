@@ -110,3 +110,12 @@ let f = Number(false);
 let g = Number("abc");
 let h = Number(NaN);
 console.log({ a, b, c, d, e, f, g ,h});*/
+
+/*10.
+function sum(a = 10, b = 10) {
+  return a + b;
+}
+console.log(sum());
+console.log(sum(5, null));//While addition between two different data types JS prefer number conversion
+console.log(sum(5, undefined));//Default value of b is used
+*/
