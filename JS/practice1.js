@@ -77,7 +77,7 @@ It returns true after successful deletion and returns true even if property does
 It does not work on variables and returns false on attempt of deletion
 In case of array it creates an empty slot after deletion from specified index
 */
-const obj = {
+/*const obj = {
   a: "hello",
   b: "world",
 };
@@ -86,5 +86,15 @@ console.log(delete obj.a);
 console.log(obj);
 console.log(delete obj.c);
 console.log(delete arr[2]);//true
-console.log(arr);//[ 1, 2, <1 empty item>, 4, 5 ]
+console.log(arr);//[ 1, 2, <1 empty item>, 4, 5 ]*/
 
+/*What should be the value of a so that following condition fulfills*/
+/*const a = {
+  val: 1,
+  toString: function () {
+    return this.val++;
+  },
+};
+if (a == 1 && a == 2 && a == 3) {
+  console.log("Condition matched");
+}*/
