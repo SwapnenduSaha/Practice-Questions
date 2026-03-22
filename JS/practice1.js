@@ -141,3 +141,26 @@ const objs = [{name:"Anuj",age:23},{name:"Kajal",age:19},{name:"Suman",age:21}];
 // console.log(objs);
 //If the subtraction is +ve then swapping will happen
 */
+
+/*13. How Object.keys() orders the keys while printing
+/*const obj1 = {
+  3:"Three",
+  1:"One",
+  2:"Two",
+  10:"Ten"
+};
+console.log(Object.keys(obj1));//If keys are integer then they are printed in ascending order
+const obj2 = {
+  "c":1,
+  "d":2,
+  "e":3,
+  "a":4
+};
+console.log(Object.keys(obj2));//If keys are string then they are printed in the order they were added
+let obj3 = {
+  3: "three",
+  name: "Swap",
+  1: "one",
+  age: 20,
+};
+console.log(Object.keys(obj3));*/
