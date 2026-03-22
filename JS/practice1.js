@@ -121,10 +121,23 @@ console.log(sum(5, undefined));//Default value of b is used
 */
 
 /*11. Returns true if every person is male */
-let objArr = [
+/*let objArr = [
   { name: "Ayush", gender: "Male" },
   { name: "Priya", gender: "Female" },
   { name: "Raj", gender: "Male" },
 ];
 let ans = objArr.every((person) => person.gender === "Male");
-console.log(ans);
+console.log(ans);*/
+
+/*12. Sort method*/
+/*If nothing is passed then all array elements are converted into string and sorted lexicographically*/
+/*const nums = [10, 2, 5, 31, 13];
+const objs = [{name:"Anuj",age:23},{name:"Kajal",age:19},{name:"Suman",age:21}];
+// nums.sort();
+// nums.sort((a, b) => a - b);Will be sorted in ascending order
+// nums.sort((a, b) => b - a);Will be sorted in descending order
+// console.log(nums);
+// objs.sort((a,b) => b.age - a.age);
+// console.log(objs);
+//If the subtraction is +ve then swapping will happen
+*/
