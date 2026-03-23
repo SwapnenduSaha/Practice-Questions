@@ -164,3 +164,23 @@ let obj3 = {
   age: 20,
 };
 console.log(Object.keys(obj3));*/
+
+/*14. Rest and Spread operator*/
+/*const nums1 = [1, 2, 3, 4, 5, 6];
+const obj1 = { name: "Aman", age: 21 };
+const nums2 = [...nums1, 10, 12];
+const obj2 = { ...obj1, city: "Mumbai", country: "India" };
+console.log(nums2);
+console.log(obj2);*/
+
+/*const [first, ...nums] = [1, 2, 3, 4, 5, 6, 7, 8];
+const obj1 = { name: "Aman", age: 21 };
+const { name, ...others } = obj1;
+console.log(first);
+console.log(nums);
+console.log(name);
+console.log(others);*/
+/*Spread → Break it apart
+Rest → Gather it together
+Rest must be last parameter
+*/
